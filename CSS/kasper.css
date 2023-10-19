@@ -10,6 +10,7 @@ body {
 html {
     width:100%;
     height:100%;
+  scroll-behavior: smooth;
 }
 
 .page1 {
@@ -453,6 +454,7 @@ color:rgb(129, 129, 129);
 .page2-part1 .content-cont {
     display: flex;
     width:25%;
+    height:60%;
     flex-direction: column;
     justify-content: center;
     background-color:  #00b7ff53;
@@ -480,6 +482,7 @@ color:rgb(129, 129, 129);
     .page2-part1 .content-cont {
         padding-right:0;
         width:100%;
+        height:80%;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -487,15 +490,16 @@ color:rgb(129, 129, 129);
 
     .page2-part1 .content-cont .feat-cont {
         width:fit-content;
-        height:100%;
+        height:80%;
         display: flex;
         flex-wrap: wrap;
         flex-grow: 1;
-        gap:10px;
+        gap:5px;
     }
 
     .page2-part1 .content-cont .feat i {
         margin-bottom:10px;
+        font-size:.8rem;
     }
 
     .page2-part1 .content-cont .feat {
@@ -655,7 +659,7 @@ color:rgb(129, 129, 129);
 }
 
 .page3-part2 {
-    height:50vh;
+    height: 40vh;
     overflow-y: hidden;
     display: flex;
     flex-direction: column;
@@ -669,7 +673,7 @@ color:rgb(129, 129, 129);
 }
 
 .page3-part2 img {
-    height:100%;
+    height:75%;
 }
 
 @media (max-width:500px) {
@@ -679,7 +683,7 @@ color:rgb(129, 129, 129);
 }
 
 .page4 {
-    height:190vh;
+    height:fit-content;
     width:100%;
     display: flex;
     flex-direction: column;
@@ -1117,7 +1121,7 @@ color:rgb(129, 129, 129);
 }
 
 .page6 .subs-cont .txt-box input::placeholder {
-    padding-left:40px;
+    padding-left:5px;
     font-size: 0.7rem;
     color:white;
 }
@@ -1125,6 +1129,7 @@ color:rgb(129, 129, 129);
 .page6 .subs-cont .txt-box input {
     width:100%;
     height:100%;
+    padding-left:45px;
     color:white;
     background-color:transparent;
     font-size: 1rem;
